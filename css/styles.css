@@ -11,7 +11,6 @@ body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  /* box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.4); */
   background-color: transparent;
   border-radius: 7px;
 }
@@ -24,7 +23,6 @@ body {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  /* background: #b30000; */
 }
 .top-container {
   position: relative;
@@ -33,7 +31,6 @@ body {
 .offersLive{
   background-color: #c59958;
   padding: 12px;
-  /* display: none; */
 }
 .offersLiveh5{
   margin: 0;
@@ -73,7 +70,6 @@ body {
 .search-head{
   padding-top: 22px;
   margin-left: 50px;
-  /* margin-top: 20px;   */
 }
 .search-head img:hover{
   cursor: pointer;
@@ -121,17 +117,13 @@ body {
   position: relative;
   display: block;
   width: 100%;
-  /* margin-bottom: 5px; */
 }
  .no-underline{
   list-style-type: none;
   text-align: center;
   margin-top: 0;
 }
-/* .navElement li{
-  display: inline-block;
 
-} */
 .hyperlink{
   text-decoration: none;
   color: black;
@@ -169,7 +161,6 @@ body {
   position: relative;
   display: block;
   width: 100%;
-  /* max-height: 5000px; */
 }
 .image-head img{
   height: 800px;
@@ -222,8 +213,6 @@ body {
 .midhead {
   display: block;
   position: relative;
-  /* margin-left: 80px; */
-  /* padding-bottom: 10px; */
   margin-bottom: 30px;
 }
 .midhead > h1{
@@ -241,7 +230,6 @@ body {
 .ruleh{
   position: relative;
   display: block;
-  /* margin: 0 auto 0 auto; */
 }
 .middle-ruleq{
   position: absolute;
@@ -255,16 +243,9 @@ body {
 
 .grid-container {
   display: grid;
-  /* position: relative; */
   margin: 0 10px 0 10px;
-  /* grid-template-columns: repeat(5, 1fr); */
-  /* grid-template-columns: repeat(auto-fill, minmax(240.516px, 1fr)); */
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-
-
-  /* grid-template-rows: repeat(1, 400px); */
   grid-gap: 1.35em;
-  /* background-color: #ECECEC; */
   padding: 20px;
 }
 
@@ -294,13 +275,8 @@ body {
   display: block;
   object-fit: cover;
   transition: transform .4s;
-  /* border-radius: 20px; */
 }
 
-/* .working:hover{
-      cursor: pointer;
-        transform: scale(1.1);
-    } */
 .image__overlay {
   position: absolute;
   top: 0;
@@ -310,7 +286,6 @@ body {
   background: rgba(0, 0, 0, 0.6);
   color: #ffffff;
   display: flex;
-  /* flex-direction: column; */
   align-items: center;
   justify-content: center;
   opacity: 0;
@@ -352,20 +327,13 @@ body {
   border-bottom: 1px solid red;
   width: 100%;
 }
-/* .image__desc {
-  font-size: 1.25em;
-  margin-top: 0.25em;
-  text-align: center;
-  font-weight: 300;
-  font-family: "poppins", sans-serif;
-} */
+
 
 .below-middle {
   display: block;
   position: relative;
   margin: 100px 0 100px 0;
-  /* background-color: #606060FF; */
-  /* height: 200px; */
+
 }
 
 .below-middle .grid-container {
@@ -377,14 +345,11 @@ body {
 .grid-items1 {
   position: relative;
   background-color: #1c1b1a;
-  /* padding: 100px 0 100px 0; */
 }
 
 .grid-items2 {
   position: relative;
   background-color: #1c1b1a;
-  /* padding: 100px 0 100px 0; */
-  /* width: 100%; */
 }
 
 .workings {
@@ -392,7 +357,6 @@ body {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  /* overflow: hidden; */
   transition: 0.4s ease-in-out;
 }
 
@@ -420,7 +384,6 @@ body {
   color: #c59958;
   background-color: #f3ec78;
   background-image: linear-gradient(45deg, #f3ec78, #af4261);
-  /* background-size: 100%; */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -450,34 +413,6 @@ hr {
   margin-bottom: 39px;
 }
 
-/* .anchortag1{
-color: #c59958;
-font-size: 1em;
-font-weight: lighter;
-padding: 10px;
-}
-.anchortag1:hover{
-color: #c59958;
-background-color: white;
-font-size: 1em;
-font-weight: lighter;
-padding: 10px;
-} */
-/* .anchortag1 {
-  box-sizing: border-box;
-  color: #c59958;
-  padding: 17px;
-  font-family: "Roboto",sans-serif;
-  font-size: 1em;
-  box-shadow: inset 0 0 0 0 white;
-  font-weight: lighter;
-  transition: all 0.7s;
-}
-.anchortag1:hover {
-  box-sizing: border-box;
-  box-shadow: inset 150px 0 0 0 white;
-  transition: all 0.7s;
-} */
 .anchortag1 {
   padding: 20px;
   font-size: 1rem;
@@ -501,21 +436,6 @@ padding: 10px;
   display: block;
 }
 
-/* .anchortag2 {
-  color: #c59958;
-  border-style: 2px solid white ;
-  padding: 17px;
-  font-family: "Roboto",sans-serif;
-  font-size: 1em;
-  box-shadow: inset 0 0 0 0 white;
-  background-color: white;
-  font-weight: lighter;
-  transition: ease-out 0.7s;
-}
-.anchortag2:hover {
-  box-shadow: inset 400px 0 0 0 white;
-  background-color: white;
-} */
 .anchortag2 {
   padding: 20px;
   font-size: 1rem;
@@ -534,7 +454,6 @@ padding: 10px;
 }
 
 .lorem-ipsum {
-  /* display: block; */
   position: absolute;
   bottom: 120px;
   left: 180px;
@@ -552,7 +471,6 @@ padding: 10px;
   letter-spacing: 1px;
   font-size: 1em;
   padding: 2.5px;
-  /* line-height: 10px; */
 }
 
 .quote {
@@ -572,28 +490,6 @@ padding: 10px;
   margin-left: 475px;
   margin-top: 400px;
 }
-
-/* .second-rule{
-  position: absolute;
-  border-style: solid none none none;
-  width: 120%;
-  border-width: 2px;
-  color: #c59958;
-  top: 200px;
-  -webkit-transform:
-translateY(-20px)
-   translateX(5px)
-   rotate(-80deg);
-} */
-/* position: relative;
-  background-color: #eee5e9;
-  border: none;
-  box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.3);
-  border-radius: 20px;
-  text-align: center;
-  width: 250px;
-  transition: transform .3s; */
-
 .trending-tshirts{
   position: relative;
   margin: 50px 0 40px 0;
@@ -602,7 +498,6 @@ translateY(-20px)
   font-family: "Poppins",sans-serif;
   text-align: center;
   font-weight: 300;
-  /* margin-left: 70px; */
 }
 .Trending:hover{
   cursor: pointer;
@@ -611,7 +506,6 @@ translateY(-20px)
 .line-under{
   position: relative;
   display: block;
-  /* margin: 0 auto 0 auto; */
 }
 .line-deals{
   position: absolute;
@@ -631,7 +525,6 @@ translateY(-20px)
   grid-row-gap: 40px;
 }
   .cardq {
-    /* border: 1px solid #d3d3d3; */
     border-style: none;
   }
   .cardq:hover {
@@ -641,18 +534,12 @@ translateY(-20px)
   }
 
    .pixel{
-    /* background-image: url("https://images.asos-media.com/products/asos-design-t-shirt-with-feel-good-print-in-charcoal/23933875-1-charcoal?$n_640w$&wid=513&fit=constrain"); */
-    /* background-size: cover; */
+
     display: block;
     max-height: 14rem;
-    /* background-position: center; */
-    /* background-color: #ccc; */
     object-fit: cover;
     width: 100%;
   }
-  /* .contentq{
-    padding: 1px;
-  } */
 .product-title{
   position: relative;
   display: block;
@@ -823,8 +710,7 @@ translateY(-20px)
   padding: 20px;
 }
 .subftgrid3 img{
-  /* object-fit: cover; */
-  max-height: 2rem;
+   max-height: 2rem;
   background-color: white;
   border-radius: 10px;
 }
