@@ -813,5 +813,23 @@ hr {
       padding-top: 30px;
       padding-bottom: 50px;
     }
+    .ftgridhdr1{
+      margin-left: 35px;
+      margin-right: 25px;
+    }
+    .ftgridhdr2{
+      margin-left: 35px;
+      margin-right: 25px;
+    }
+
+    .ftgridhdr3{
+      margin-left: 35px;
+    }
+    .list1ul{
+      margin-left: 35px;
+    }
+    .list1ul1{
+      margin-left: 35px;
+    }
 
   }
