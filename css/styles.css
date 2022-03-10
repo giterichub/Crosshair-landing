@@ -808,5 +808,10 @@ hr {
      .desc-about button{
       transform: translateX(40%);
     }
+    .footer-grid{
+      grid-template-columns: 1fr;
+      padding-top: 30px;
+      padding-bottom: 50px;
+    }
 
   }
