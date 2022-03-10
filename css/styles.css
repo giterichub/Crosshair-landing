@@ -796,5 +796,14 @@ hr {
       transform: translateX(-50%);
       width: 90%;
     }
+    .desc-about p{
+      display: none;
+    }
+    .desc-about{
+        transform: translateX(-20%);
+    }
+    .about-us-grid{
+      margin: 50px 2rem 50px 2rem;
+    }
 
   }
