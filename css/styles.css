@@ -295,10 +295,7 @@ body {
 .image__overlay--blur {
     backdrop-filter: blur(5px);
 }
-/* .image__overlay--primary {
-    background: #009578;
-} */
-/* ----------------important------------------- */
+
 .image__overlay>* {
   transform: translateY(20px);
   transition: transform 0.45s;
