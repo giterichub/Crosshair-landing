@@ -781,8 +781,8 @@ hr {
     .about-gridq{
       grid-template-columns: 1fr;
     }
-    .desc-about button{
-      transform: translateX(20%);
+    .desc-about{
+      transform: translateX(8%);
     }
     .first-rule{
       width: 90%;
