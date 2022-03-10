@@ -976,5 +976,19 @@ hr {
     transform: rotate(-135deg);
     top: -7px;
   }
-
+}
+@media screen and (max-width: 851px){
+  .desc-about button {
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+  .text-over-img {
+    top: 25%;
+    left: 5rem;
+    font-size: 2.7rem;
+  }
+  .image-head p{
+    font-size: 1.8rem;
+    bottom: 25%;
+  }
 }
