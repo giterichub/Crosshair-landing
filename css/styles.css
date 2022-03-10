@@ -837,5 +837,8 @@ hr {
     .image__overlay--blur {
         backdrop-filter: blur(2px);
     }
+        .pixel{
+     height: 14.5rem;
+   }
 
   }
