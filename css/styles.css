@@ -781,9 +781,7 @@ hr {
     .about-gridq{
       grid-template-columns: 1fr;
     }
-    .desc-about{
-      transform: translateX(8%);
-    }
+  
     .first-rule{
       width: 90%;
     }
@@ -802,6 +800,9 @@ hr {
 
     .about-us-grid{
       margin: 50px 2rem 50px 2rem;
+    }
+     .desc-about button{
+      transform: translateX(40%);
     }
 
   }
