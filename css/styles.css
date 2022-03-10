@@ -172,7 +172,7 @@ body {
   font-size: 4rem;
   font-weight: bold;
   top: 25%;
-  left: 180px;
+  left: 15%;
   font-family: "Sacramento",sans-serif;
   color: white;
 }
@@ -198,8 +198,8 @@ body {
 }
 .image-head p{
   position: absolute;
-  top: 50%;
-  right: 170px;
+  bottom: 35%;
+  right: 10%;
   font-size: 2rem;
   font-weight: bold;
   font-family: "Sacramento", sans-serif;
@@ -751,6 +751,9 @@ hr {
     .btn-over-img{
       left: 50%;
       transform: translateX(-50%);
+    }
+    .image-head p{
+      font-size: 1.3rem;
     }
     .line-deals{
       width: 40%;
