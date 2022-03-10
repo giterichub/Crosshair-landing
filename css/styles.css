@@ -782,7 +782,7 @@ hr {
       grid-template-columns: 1fr;
     }
     .desc-about button{
-      transform: translateX(40%);
+      transform: translateX(30%);
     }
     .first-rule{
       width: 90%;
