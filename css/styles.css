@@ -830,5 +830,12 @@ hr {
     .list1ul1{
       margin-left: 35px;
     }
+    .image__overlay {
+      opacity: 1;
+    }
+
+    .image__overlay--blur {
+        backdrop-filter: blur(2px);
+    }
 
   }
