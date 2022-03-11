@@ -777,7 +777,7 @@ hr {
   transform: scale(1.2);
 }
 
-@media screen and (min-width: 390px) {
+@media screen and (max-width: 390px) {
   .cardq {
     box-shadow: 0 0 3px 3px #F2F3F3;
     cursor: pointer;
