@@ -899,8 +899,11 @@ hr {
   .head-trial {
     left: 50%;
     transform: translateX(-50%);
+    top: 35%;
   }
-
+  .grid-items1 {
+    padding-bottom: 80px;
+  }
   .grid-items2 {
     display: none;
   }
@@ -920,20 +923,33 @@ hr {
   .about-gridq {
     grid-template-columns: 1fr;
   }
-
   .first-rule {
     width: 90%;
+    top: 35%;
   }
 
   .actual-head {
     font-size: 2.1rem;
   }
 
-  hr {
-    bottom: 20%;
+    hr {
+    bottom: 6%;
     left: 50%;
     transform: translateX(-50%);
     width: 90%;
+  }
+  .anchor1 {
+    margin-top: 35px;
+    margin-bottom: 29px;
+  }
+
+  .anchortag1 {
+    padding: 15px;
+    font-size: 0.8rem;
+  }
+  .anchortag2 {
+    padding: 15px;
+    font-size: 0.8rem;
   }
 
   .desc-about p {
