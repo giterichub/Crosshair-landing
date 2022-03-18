@@ -924,12 +924,12 @@ hr {
     display: block;
     position: absolute;
     width: 100%;
-    top: 15px;
+    top: 25px;
     right: 0px;
     background: #e7e7e7;
     transition: 0.6s;
     z-index: 1000;
-    height: 0px;
+    height: 0;
     visibility: hidden;
     overflow-y: hidden;
   }
