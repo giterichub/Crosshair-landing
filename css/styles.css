@@ -185,9 +185,9 @@ body {
 .btn-over-img {
   position: absolute;
   bottom: 9%;
-  left: 570px;
+  left: 50%;
+  transform: translateX(-50%);
 }
-
 .btn-img {
   border: 2px solid white;
   border-radius: 4px;
