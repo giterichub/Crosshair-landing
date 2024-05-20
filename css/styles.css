@@ -217,13 +217,13 @@ body {
   margin: 120px 0 80px 0;
 }
 
-.midhead {
+.deals-trend-item-container {
   display: block;
   position: relative;
   margin-bottom: 30px;
 }
 
-.midhead>h1 {
+.deals-trend-item-container>h1 {
   position: relative;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
@@ -233,16 +233,16 @@ body {
   padding: 0;
 }
 
-.midhead>h1:hover {
+.deals-trend-item-container>h1:hover {
   cursor: pointer;
 }
 
-.ruleh {
+.deals-divider-container {
   position: relative;
   display: block;
 }
 
-.middle-ruleq {
+.deals-hr {
   position: absolute;
   border-style: none none solid none;
   width: 17%;
@@ -261,22 +261,11 @@ body {
   padding: 20px;
 }
 
-.grid-item1 {
+.grid-item {
   position: relative;
 }
 
-.grid-item2 {
-  position: relative;
-}
-
-.grid-item3 {
-  position: relative;
-}
-
-.grid-item4 {
-  position: relative;
-}
-.working {
+.deals-image {
   width: 100%;
   height: 100%;
   display: block;
@@ -503,16 +492,6 @@ hr {
   margin: 50px 0 40px 0;
 }
 
-.Trending {
-  font-family: "Poppins", sans-serif;
-  text-align: center;
-  font-weight: 300;
-}
-
-.Trending:hover {
-  cursor: pointer;
-}
-
 .line-under {
   position: relative;
   display: block;
@@ -529,7 +508,7 @@ hr {
   transform: translateX(-50%);
 }
 
-.grid-containerq {
+.trending-grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   grid-gap: 10px;
@@ -537,17 +516,17 @@ hr {
   grid-row-gap: 40px;
 }
 
-.cardq {
+.trending-product-card {
   border-style: none;
 }
 
-.cardq:hover {
+.trending-product-card:hover {
   box-shadow: 0 1.5px 4px 0 grey;
   cursor: pointer;
   transition: 0.2s;
 }
 
-.pixel {
+.product-image {
   display: block;
   max-height: 14.5rem;
   object-fit: cover;
@@ -608,26 +587,26 @@ hr {
   margin-left: 3px;
 }
 
-.about-us-grid {
+.about-us-container {
   position: relative;
   display: block;
   margin: 150px auto;
   max-width: 1199px;
 }
 @media screen and (min-width: 1400px){
-  .about-us-grid {
+  .about-us-container {
     max-width: 1299px;
   }
   .desc-about {
     font-size: 1rem;
   }
-  .grid-containerq {
+  .trending-grid-container {
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     margin-left: auto;
     margin-right: auto;
     max-width: 1809px;
   }
-  .pixel {
+  .product-image {
     max-height: 15.5rem;
   }
   .grid-container {
@@ -691,7 +670,7 @@ hr {
 }
 
 
-.about-gridq {
+.about-us-grid {
   position: relative;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -853,7 +832,7 @@ hr {
 }
 
 @media screen and (max-width: 900px) {
-  .cardq {
+  .trending-product-card {
     box-shadow: 0 0 3px 3px #F2F3F3;
     cursor: pointer;
     transition: 0.2s;
@@ -884,7 +863,7 @@ hr {
     width: 40%;
   }
 
-  .middle-ruleq {
+  .deals-hr {
     width: 40%;
   }
 
@@ -921,7 +900,7 @@ hr {
     margin-left: 0;
   }
 
-  .about-gridq {
+  .about-us-grid {
     grid-template-columns: 1fr;
   }
   .first-rule {
@@ -957,7 +936,7 @@ hr {
     display: none;
   }
 
-  .about-us-grid {
+  .about-us-container {
     margin: 50px 2rem 50px 2rem;
   }
 
@@ -1001,7 +980,7 @@ hr {
     backdrop-filter: blur(2px);
   }
 
-  .pixel {
+  .product-image {
     height: 14.5rem;
   }
 
